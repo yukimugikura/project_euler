@@ -6,4 +6,10 @@ class Admin::Staff::Novel::WorksController < Admin::Staff::Novel::BaseController
 
   def show
   end
+
+  def new
+  end
+
+  def create
+  end
 end

@@ -1,8 +1,8 @@
 class Admin::Staff::Novel::WorksController < Admin::Staff::Novel::BaseController  
-  before_action :set_work, only: %i[show]
+  before_action :set_work, except: %i[index, new]
 
   def index
-  end
+  end 
 
   def show
   end

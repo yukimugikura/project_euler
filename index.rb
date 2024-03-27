@@ -12,4 +12,7 @@ class Admin::Staff::Novel::WorksController < Admin::Staff::Novel::BaseController
 
   def create
   end
+
+  def delete
+  end
 end
